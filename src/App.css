@@ -1,35 +1,28 @@
 .App {
   background-color: #61dafb;
   min-height: 100vh;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-  position: absolute;
-  margin: calc((100vh - 75vh)/2) calc((100vw - 25vw)/2);
-  width: 25vw;
-  min-height: 75vh;
+  width: 35rem;
+  max-width: 90%;
+  height: 75vh;
 }
 
 .principal {
   display: block;
   width: 100%;
-  min-height: 25rem;
+  min-height: 50%;
   background-color: #FFF;
 }
 
-.login-google {
+.login-google, .login-facebook {
   display: block;
   width: 100%;
-  margin-top: 5rem;
-  min-height: 5rem;
-  background-color: #FFF;
-}
-
-.login-facebook {
-  display: block;
-  width: 100%;
-  margin-top: 5rem;
-  min-height: 5rem;
+  margin-top: 15%;
+  min-height: 13%;
   background-color: #FFF;
 }

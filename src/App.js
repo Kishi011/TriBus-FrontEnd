@@ -11,7 +11,7 @@ function App() {
   );
 
   const handleFailure = (result) => {
-    alert(result);
+    console.log(result);
   };
 
   const handleLogin = (googleData) => {
@@ -39,7 +39,7 @@ function App() {
               </div>
             ) : (
               <GoogleLogin
-                clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID}
+                clientId="323557027659-o8quisac45o94r0opf3p2ss0nl48ap7n.apps.googleusercontent.com"
                 buttonText='Entrar com o Google'
                 onSuccess={handleLogin}
                 onFailure={handleFailure}
